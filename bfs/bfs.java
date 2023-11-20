@@ -25,7 +25,7 @@ class BreathFirstSearch {
         System.out.println("\nGraph: \n");
 
         for (char c : graph.keySet())
-            System.out.println(c + "–>" + graph.get(c));
+            System.out.println(c + " –> " + graph.get(c));
         System.out.println();
 
         bfs(graph, 's');
